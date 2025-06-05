@@ -120,7 +120,7 @@ fun ProfilePage(modifier: Modifier = Modifier) {
             ProfileActionButton(
                 icon = Icons.Default.Settings,
                 text = "Settings",
-                onClick = { /* TODO */ }
+                onClick = { GlobalNavigation.navController.navigate("set")}
             )
         }
 

@@ -24,6 +24,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.absar.shopabs.GlobalNavigation.navController
 import com.absar.shopabs.ui.theme.ElectricPurple
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -67,7 +68,7 @@ fun HeaderView(modifier: Modifier = Modifier) {
                 )
             )
         }
-        IconButton(onClick = {}) {
+        IconButton(onClick = { navController.navigate("search") }) {
             Icon(
                 imageVector = Icons.Default.Search,
                 contentDescription = "search",

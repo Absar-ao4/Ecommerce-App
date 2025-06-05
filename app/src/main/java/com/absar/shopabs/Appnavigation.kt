@@ -12,9 +12,11 @@ import com.absar.shopabs.pages.CategoryProductsPage
 import com.absar.shopabs.pages.CheckOutPage
 import com.absar.shopabs.pages.OrdersPage
 import com.absar.shopabs.pages.ProductDetailsPage
+import com.absar.shopabs.pages.SettingsPage
 import com.absar.shopabs.screen.AuthScreen
 import com.absar.shopabs.screen.HomeScreen
 import com.absar.shopabs.screen.LoginScreen
+import com.absar.shopabs.screen.ProductSearchScreen
 import com.absar.shopabs.screen.SignUpScreen
 import com.google.firebase.Firebase
 import com.google.firebase.app
@@ -60,8 +62,17 @@ fun AppNavigation(modifier: Modifier=Modifier)
         composable("ord"){
             OrdersPage()
         }
-
-
+        composable("search") {
+            ProductSearchScreen(onBack = { navController.popBackStack() })
+        }
+        composable("set"){
+            SettingsPage(
+                onBack = { navController.popBackStack() },
+                onContactSupport = { },
+                onOpenPrivacyPolicy = { },
+                appVersion = "1.0.0"
+            )
+        }
 
     }
 

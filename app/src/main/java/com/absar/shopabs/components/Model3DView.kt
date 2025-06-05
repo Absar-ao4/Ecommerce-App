@@ -89,7 +89,7 @@ fun Watch3DViewerWithSlider() {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Column(
-                    modifier = Modifier.weight(1f) // Let text take available space
+                    modifier = Modifier.weight(1f)
                 ) {
                     Text(
                         "3in1 Vintage Watch",
@@ -168,7 +168,7 @@ fun Watch3DViewerWithSlider() {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Column(
-                    modifier = Modifier.weight(1f) // Let text take available space
+                    modifier = Modifier.weight(1f)
                 ) {
                     Text(
                         "3in1 Vintage Watch",

@@ -79,6 +79,9 @@ fun HomePage(modifier: Modifier = Modifier) {
                     )
                     Spacer(modifier = Modifier.height(8.dp))
                     Watch3DViewerWithSlider()
+                    Spacer(modifier=Modifier.height(35.dp))
+                    Text(text="Loading...")
+                    Text(text="Loading...")
                 }
             }
         }
