@@ -49,8 +49,6 @@ A modern, full-featured Ecommerce Android application built with Kotlin, integra
 - Stores product images and user profile pictures.
 - Accessed securely via Firebase Storage rules.
 
-#### Cloud Messaging (Optional)
-- Push notifications for order status and promotions.
 
 **Setup Steps:**
 1. Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
@@ -93,13 +91,6 @@ A modern, full-featured Ecommerce Android application built with Kotlin, integra
 
 ---
 
-### 3. Admin Panel
-
-- Manage products, categories, and orders.
-- Approve or reject orders, update delivery status.
-- All admin actions are synced in real-time via Firebase.
-
----
 
 ## 📁 Project Structure
 
@@ -107,7 +98,6 @@ A modern, full-featured Ecommerce Android application built with Kotlin, integra
 - `data/` – Data models, repositories, and Firebase helpers
 - `ui/` – Activities, Fragments, ViewModels
 - `payments/` – Razorpay integration
-- `admin/` – Admin panel features
 
 ---
 
