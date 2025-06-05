@@ -38,7 +38,7 @@ A modern, full-featured Ecommerce Android application built with Kotlin, integra
 #### Authentication
 - User registration and login via Firebase Authentication.
 - Multiple providers (Email/Password, Google, etc.).
-- Handles user session, password reset, and profile management.
+- Handles user session and profile management.
 
 #### Realtime Database
 - Stores products, categories, users, carts, and orders.
