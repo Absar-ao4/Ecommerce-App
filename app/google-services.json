@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216968024094",
+    "project_id": "shopabs-3bb3a",
+    "storage_bucket": "shopabs-3bb3a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216968024094:android:b7bee862755f2445d65e0f",
+        "android_client_info": {
+          "package_name": "com.absar.shopabs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7T-Whq3ko9AAk3ToAOcEODxlnpruW2sY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
