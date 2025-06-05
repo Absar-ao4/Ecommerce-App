@@ -17,18 +17,17 @@ A modern, full-featured Ecommerce Android application built with Kotlin, integra
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="screenshots/login.png" alt="Login Screen" title="Login Screen" width="250"/>
-  <br/><sub>Login Screen</sub>
+  <img src="screenshots/page1.png" alt="Firebase Auth and Real-time data" title="Firebase Auth and Real-time data" width="250"/>
+  <br/><sub><u>Firebase Auth and Real-time data</u></sub>
+  <br/><br/><br/>
+  <img src="screenshots/page2.png" alt="Track Orders using Firestore" title="Track Orders using Firestore" width="250"/>
+  <br/><sub><u>Track Orders using Firestore</u></sub>
+  <br/><br/><br/>
+  <img src="screenshots/page3.png" alt="Razorpay Integration for safe payment" title="Razorpay Integration for safe payment" width="250"/>
+  <br/><sub><u>Razorpay Integration for safe payment</u></sub>
   <br/><br/>
-  <img src="screenshots/home.png" alt="Home Screen" title="Home Screen" width="250"/>
-  <br/><sub>Home Screen</sub>
-  <br/><br/>
-  <img src="screenshots/product_details.png" alt="Product Details Screen" title="Product Details Screen" width="250"/>
-  <br/><sub>Product Details Screen</sub>
-  <br/><br/>
-  <img src="screenshots/admin_panel.png" alt="Admin Panel Screen" title="Admin Panel Screen" width="250"/>
-  <br/><sub>Admin Panel Screen</sub>
 </p>
+
 
 ---
 
